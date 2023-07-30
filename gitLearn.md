@@ -24,3 +24,12 @@ xxx为将要合并的分支名，是将xxx分支合并到当前所在分支，�
 # 中间为main分支下该文件冲突位置内容
 修改文件，并把那些小于号大于号======描述信息删除
 将修改文件重新添加并提交，此时git commit不能加文件名，不然会报错
+
+# git push
+git push origin master:masterPull
+origin为要push的远程分支名，可通过git remote -v查看
+master为要上传的本地分支ming
+masterPull为传到远程仓库的分支名，即master分支到了远程仓库上的名字，可到远程仓库查看，
+## git push origin master
+不加远程分支名即默认使用本地上传的分支名
+
