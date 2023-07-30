@@ -14,7 +14,7 @@ xxx为git reflog显示的各个版本前的版本号
 ## git merge xxx
 xxx为将要合并的分支名，是将xxx分支合并到当前所在分支，所以要先切换到主分支进行执行（如果是想把分支合并到主分支上的话）
 
-<img src="./合并冲突介绍.png" width="800" height="400">
+<img src="./合并冲突介绍.png" width="auto" height="auto">
 
 # 一排小于号HEAD
 # 一行等号
