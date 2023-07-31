@@ -32,9 +32,16 @@ master为要上传的本地分支ming
 masterPull为传到远程仓库的分支名，即master分支到了远程仓库上的名字，可到远程仓库查看，
 ## git push origin master
 不加远程分支名即默认使用本地上传的分支名
+
 # git clone
 所做的操作有：
 1、 拉取代码
 2、 初始化本地库
 3、 创建别名origin
+
+# git fetch
+## git fetch 远程主机名  
+会拉取全部
+## git fetch 远程主机名 远程分支名
+拉取特定分支
 
