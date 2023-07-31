@@ -45,3 +45,6 @@ masterPull为传到远程仓库的分支名，即master分支到了远程仓库�
 ## git fetch 远程主机名 远程分支名
 拉取特定分支
 
+# git pull
+## 相当于git fetch更新本地和git merge
+## 容易覆盖修改，谨慎选择
